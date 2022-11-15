@@ -12,9 +12,9 @@ function Carousal() {
           <Col>
             <Container >
               <img
-                className="d-block w-100"
+                className="d-block mt-4 w-100"
                 src={img0}
-                style={{maxHeight:"80vh",marginTop:"50px"}}
+                style={{maxHeight:"70vh"}}
                 alt="First slide"
               />
             </Container>
@@ -24,7 +24,7 @@ function Carousal() {
               <img
                 className="d-block  w-100"
                 src={img1}
-                style={{maxHeight:"80vh"}}
+                style={{maxHeight:"70vh"}}
                 alt="First slide"
               />
             </Container>
@@ -37,9 +37,9 @@ function Carousal() {
           <Col>
             <Container>
               <img
-                className="d-block w-100"
+                className="d-block mt-4 w-100"
                 src={img2}
-                style={{maxHeight:"80vh",marginTop:"60px"}}
+                style={{maxHeight:"70vh"}}
                 alt="Second slide"
               />
             </Container>
@@ -49,7 +49,7 @@ function Carousal() {
               <img
                 className="d-block w-100"
                 src={img3}
-                style={{maxHeight:"80vh"}}
+                style={{maxHeight:"70vh"}}
                 alt="Second slide"
               />
             </Container>
