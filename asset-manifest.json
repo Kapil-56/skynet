@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9cc7c95b.css",
+    "main.js": "/static/js/main.677a1df7.js",
+    "static/js/787.ee991072.chunk.js": "/static/js/787.ee991072.chunk.js",
+    "static/media/img3.png": "/static/media/img3.647bb3571ba17953331a.png",
+    "static/media/broadband.png": "/static/media/broadband.fb6b13a2d497ff5dd8ba.png",
+    "static/media/tvservice.png": "/static/media/tvservice.2791b3802acc7e8002a1.png",
+    "static/media/img1.png": "/static/media/img1.ce069cd556308135012c.png",
+    "static/media/leaseline.png": "/static/media/leaseline.74db5a25471f757a0cb7.png",
+    "static/media/img2.png": "/static/media/img2.bc165beec78ce1c854c8.png",
+    "static/media/img0.png": "/static/media/img0.983f8952a49617884cbb.png",
+    "static/media/logo1.png": "/static/media/logo1.b5c22f559577d185d168.png",
+    "index.html": "/index.html",
+    "main.9cc7c95b.css.map": "/static/css/main.9cc7c95b.css.map",
+    "main.677a1df7.js.map": "/static/js/main.677a1df7.js.map",
+    "787.ee991072.chunk.js.map": "/static/js/787.ee991072.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cc7c95b.css",
+    "static/js/main.677a1df7.js"
+  ]
+}
