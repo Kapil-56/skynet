@@ -28,7 +28,7 @@ export default function Header() {
                         <Nav className='mx-auto'>
                             <Nav.Link><Link
                                 smooth={true}
-                                hashSpy={true}
+                                // hashSpy={true}
                                 offset={-100}
                                 duration={2} to='home'>Home</Link></Nav.Link>
                             <Nav.Link><Link
