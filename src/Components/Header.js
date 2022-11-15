@@ -16,7 +16,7 @@ export default function Header() {
                         <Link
                             smooth={true}
                             // hashSpy={true}
-                            offset={-100}
+                            offset={-101}
                             duration={2} to='home'>
                             <img src={logo} alt="logo" width="60"
                                 height="60"
