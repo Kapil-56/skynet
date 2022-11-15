@@ -1,5 +1,9 @@
 import React from 'react'
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
+import Moodal from './Moodal';
+import Iplans from './img/demoplan.png'
+import TVplans from './img/demoplan2.png'
+import ITVplans from './img/demoplan3.png'
 
 function Plans() {
     return (
@@ -22,7 +26,9 @@ function Plans() {
                         <li>Upload As Fast As You Download</li>
                     </ul>
                     <div className='text-center my-4'>
-                        <Button style={{ backgroundColor: "white", color: "#5271fd", fontWeight: "600" }}>CHECK PLANS</Button>
+                    <Moodal color={"#5271fd"} background={"white"} img={Iplans}/>
+
+                        {/* <Button onClick={handleClick} style={{ backgroundColor: "white", color: "#5271fd", fontWeight: "600" }}>CHECK PLANS</Button> */}
                     </div>
                 </Col>
 
@@ -37,7 +43,8 @@ function Plans() {
                         <li>Record and watch later</li>
                     </ul>
                     <div className='text-center my-4'>
-                        <Button style={{ backgroundColor: "#5271fd", color: "white", fontWeight: "600" }}>CHECK PLANS</Button>
+                    <Moodal color={"white"} background={"#5271fd"} img={TVplans} />
+
                     </div>
 
                 </Col>
@@ -52,7 +59,8 @@ function Plans() {
                         <li>Record and watch later</li>
                     </ul>
                     <div className='text-center my-4'>
-                        <Button style={{ backgroundColor: "white", color: "#5271fd", fontWeight: "600" }}>CHECK PLANS</Button>
+                    <Moodal color={"#5271fd"} background={"white"} img={ITVplans}/>
+
                     </div>
                 </Col>
             </Row>

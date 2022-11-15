@@ -6,7 +6,7 @@ import img3 from './img/img3.png'
 
 function Carousal() {
   return (
-    <Carousel id='home' className='my-5 '>
+    <Carousel id='home' className='mt-5 '>
       <Carousel.Item interval={5000} >
         <Row className='my-5 d-flex flex-column flex-lg-row justify-content-around'>
           <Col>

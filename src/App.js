@@ -13,12 +13,11 @@ function App() {
     <div className="App">
       <Header />
       <Carousal />
-        <Card />
-      
+      <Card />
       <Plans />
-      <Container >
-        <h1>Customer Testimonials</h1>
-        <div className="elfsight-app-8db71c85-c800-41ca-a17c-77b691022e52 my-5"></div>
+      <Container>
+        {/* <h1>Customer Testimonials</h1>
+        <div className="elfsight-app-8db71c85-c800-41ca-a17c-77b691022e52 my-5"></div> */}
       </Container>
       <FAQ />
       <Footer />
