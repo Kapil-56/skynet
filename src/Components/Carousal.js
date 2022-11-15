@@ -14,7 +14,7 @@ function Carousal() {
               <img
                 className="d-block w-100"
                 src={img0}
-                style={{maxHeight:"80vh",marginTop:"60px"}}
+                style={{maxHeight:"80vh",marginTop:"50px"}}
                 alt="First slide"
               />
             </Container>
