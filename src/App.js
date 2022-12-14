@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Header />
       <Carousal />
-      <a href="https:/wa.me/919821510156" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
+      <a href="https://api.whatsapp.com/send/?phone=919821510156&text&type=phone_number&app_absent=0" target={"_blank"} rel='noopener noreferrer' class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
       <Card />
       <Plans />
       <Container>
