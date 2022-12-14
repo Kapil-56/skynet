@@ -6,6 +6,7 @@ import { Container } from 'react-bootstrap';
 import Plans from './Components/Plans';
 import FAQ from './Components/FAQ';
 import Footer from './Components/Footer';
+import '../src/style.css'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Header />
       <Carousal />
+      <a href="https:/wa.me/919821510156" target="/" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
       <Card />
       <Plans />
       <Container>

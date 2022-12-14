@@ -1,5 +1,5 @@
 import logo from './img/logo1.png'
-import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
+import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Link } from 'react-scroll'
 
 
@@ -38,23 +38,14 @@ export default function Header() {
                                 duration={2} to='services'>Services</Link></Nav.Link>
 
                             {/* <Nav.Link href="#CardInfo">Services</Nav.Link> */}
-                            <NavDropdown title="Plans" id="basic-nav-dropdown">
-                                <NavDropdown.Item >
-                                    <Link
-                                        smooth={true}
-                                        // hashSpy={true}
-                                        offset={-100}
-                                        duration={2} to='plans'>Broadband</Link>
-                                </NavDropdown.Item>
-                                <NavDropdown.Item >
-                                    <Link
-                                        smooth={true}
-                                        // hashSpy={true}
-                                        offset={-100}
-                                        duration={2} to='plans'>Digital Cable TV</Link>
-
-                                </NavDropdown.Item>
-                            </NavDropdown>
+                          
+                            <Nav.Link>
+                                <Link
+                                    smooth={true}
+                                    // hashSpy={true}
+                                    offset={-100}
+                                    duration={2} to='plans'>Plans</Link>
+                            </Nav.Link>
                             <Nav.Link>
                                 <Link
                                     smooth={true}

@@ -11,13 +11,13 @@ function FAQ() {
                         <Accordion.Item eventKey="0">
                             <Accordion.Header ><p className='m-0' style={{ color: "#5271fd", fontWeight: "600" }}>How much time does it takes for the installation?</p></Accordion.Header>
                             <Accordion.Body>
-                                It usually takes around 15 to 20 min in most of the cases but there may be a slight difference depending on your locality.
+                                It usually takes around 15 to 20 minutes in most of the cases but there may be a slight difference depending on your locality.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1" >
                             <Accordion.Header ><p className='m-0' style={{ color: "#5271fd", fontWeight: "600" }}>Are there any security charges?</p></Accordion.Header>
                             <Accordion.Body>
-                                Yes,an amount of rupees 2000 is charged for the modem which is refundable when you return the modem.
+                                Yes,an amount of ₹2000 is charged for the modem which is refundable when you return the modem.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="2" >

@@ -16,7 +16,7 @@ function MyVerticallyCenteredModal(props) {
                 </Modal.Title>
             </Modal.Header> */}
             <Modal.Body>
-                <img src={props.img} alt="" className='w-100' />
+                <img src={props.img} alt="img" className='w-100' />
             </Modal.Body>
             <Modal.Footer>
                 <Button onClick={props.onHide}>Close</Button>

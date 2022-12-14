@@ -1,6 +1,9 @@
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import logo from './img/logo1.png'
 import { Link } from 'react-scroll'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faInfoCircle, faRupeeSign } from '@fortawesome/free-solid-svg-icons'
+
 
 
 export default function Footer() {
@@ -39,7 +42,7 @@ export default function Footer() {
                         <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                             <img className='sm' src={logo} alt="logo" srcset="" />
                             <h6 className='text-uppercase fw-bold mb-4'>
-                                <MDBIcon icon="gem" className="me-3" />
+                                {/* <MDBIcon icon="gem" className="me-3" /> */}
                                 Skynet broadband services
                             </h6>
 
@@ -50,19 +53,21 @@ export default function Footer() {
                             <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
                             <p>
                                 <Link smooth={true}
-                                    style={{cursor:"pointer"}}
+                                    style={{ cursor: "pointer" }}
                                     // hashSpy={true}
                                     offset={-101}
-                                    duration={2} to='home'>
+                                    duration={2} to='plans'>
+                                    <FontAwesomeIcon className='mx-1' icon={faRupeeSign}></FontAwesomeIcon>
                                     Pricing
                                 </Link>
                             </p>
                             <p>
-                            <Link smooth={true}
-                                    style={{cursor:"pointer"}}
+                                <Link smooth={true}
+                                    style={{ cursor: "pointer" }}
                                     // hashSpy={true}
                                     offset={-101}
                                     duration={2} to='home'>
+                                    <FontAwesomeIcon className='mx-1' icon={faInfoCircle}></FontAwesomeIcon>
                                     Help
                                 </Link>
                             </p>
@@ -72,13 +77,13 @@ export default function Footer() {
                             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
                             <p>
                                 <MDBIcon icon="home" className="me-2" />
-                                U-Block, DlF phase 3, Gurgaon
+                                Nathupur, DLF phase 3, Gurgaon
                             </p>
                             <p>
                                 <MDBIcon icon="phone" className="me-3" /> +91 9818508324
                             </p>
                             <p>
-                                <MDBIcon icon="print" className="me-3" /> + 91 9811508324
+                                <MDBIcon icon="phone" className="me-3" /> + 91 9811508324
                             </p>
                         </MDBCol>
                     </MDBRow>
