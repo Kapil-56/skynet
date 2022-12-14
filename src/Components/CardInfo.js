@@ -31,7 +31,7 @@ function CardInfo() {
         <Card style={{border:"none"}}>
           <Card.Img variant="top" src={Leaseline} />
           <Card.Body>
-            <Card.Title>Leased Line for Business</Card.Title>
+            <Card.Title>Leased Line For Business</Card.Title>
             <Card.Text>
               <p> We also provide leased-Line connection for Large Enterprise</p>
             </Card.Text>
